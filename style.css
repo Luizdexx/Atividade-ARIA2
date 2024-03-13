@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; /* Alinha os elementos à esquerda e à direita */
+  align-items: center; /* Alinha os elementos verticalmente */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  
+}
+
+main {
+  padding: 20px;
+  
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+/* Estilos da figura */
+.figura {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.figura img {
+  display: block;
+  margin: auto;
+  width: 20%;
+  border-radius: 5px;
+}
+
+p{
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.assinar {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+
+#contrastOptions {
+  text-align: center;
+}
+#contrastOptions button {
+  margin: 5px;
+}
+
+/* Estilos de contraste */
+.high-contrast {
+  background-color: #000;
+  color: #fff;
+}
+
+.black-and-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.blue-contrast {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.green-contrast {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.yellow-contrast {
+  background-color: #ffc107;
+  color: #000;
+}
+
+/* Estilos para alinhar a navegação à direita */
+.right-align {
+  margin-left: auto; /* Empurra a navegação para a direita */
+}
